@@ -1,0 +1,16 @@
+body {
+    background: url("../images/notebook.png");
+}
+
+
+#container {
+    color: black;
+    width: 600px;
+    height: 100vh;
+    background: rgb(105, 103, 103);
+    margin: auto;
+    border-radius: 0;
+}
+
+
+

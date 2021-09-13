@@ -1,0 +1,115 @@
+/*
+ * General Styles
+*/
+
+html {
+    font-size: 100%;
+  }
+  
+  body {
+    background: url('../images/background.png');
+    font-family: 'Open Sans', arial, sans-serif;
+  
+    /* Full Page Background Receipe */
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+  }
+  
+  * {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style-type: disc;
+  }
+  
+  /* Heading Styles */
+  
+  h1, h2 {
+    font-family: 'Teko', sans-serif;
+    color: black;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  /* Container Styles */
+
+#container {
+  color: black;
+  width: 25rem;
+  height: 100vh;
+  background: rgb(105, 103, 103);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.main {
+  text-align: center;
+  margin: 0 1.5625rem 1.5625rem 1.5625rem;
+  padding: 15px;
+}
+
+.controller {
+  width: 100px;
+  height: 100px;
+}
+
+.intro {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.requirements {
+  text-align: left;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.rules {
+  text-align: left;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.rh2 {
+  text-align: center;
+}
+
+.prize {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.enter {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.random_thing {
+  background: rgb(90, 89, 89);
+}
+
